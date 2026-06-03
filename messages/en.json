@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "moving": "Moving",
+    "crafts": "Crafts",
+    "garden": "Garden Work",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Students. Fast. Flexible. Competent.",
+    "subtitle": "Your reliable solution for moving, crafts and garden work",
+    "cta1": "Book movers",
+    "cta2": "Request quote"
+  },
+  "process": {
+    "title": "How it works",
+    "step1": {
+      "title": "Complete online form",
+      "description": "Enter your requirements and select date and time"
+    },
+    "step2": {
+      "title": "Receive staff contact details",
+      "description": "We'll send you details of your qualified helpers"
+    },
+    "step3": {
+      "title": "Workers arrive on time",
+      "description": "Our students will be there at the scheduled time"
+    }
+  },
+  "services": {
+    "title": "Why choose us?",
+    "feature1": {
+      "title": "40,000+ Students",
+      "description": "Large network of available helpers"
+    },
+    "feature2": {
+      "title": "24/7 Support",
+      "description": "We're always here for you"
+    },
+    "feature3": {
+      "title": "Available nationwide",
+      "description": "Bookable throughout Germany"
+    },
+    "feature4": {
+      "title": "€5 Online discount",
+      "description": "Save with online booking"
+    }
+  },
+  "statistics": {
+    "bookings": "Bookings per year",
+    "satisfied": "Satisfied customers",
+    "students": "Registered students",
+    "referral": "Referral rate"
+  },
+  "pricing": {
+    "title": "Our pricing packages",
+    "small": {
+      "title": "Small move",
+      "price": "€93.90",
+      "helpers": "2 helpers",
+      "duration": "90 minutes"
+    },
+    "medium": {
+      "title": "Medium move",
+      "price": "€215.85",
+      "helpers": "3 helpers",
+      "duration": "3 hours"
+    },
+    "large": {
+      "title": "Large move",
+      "price": "€343.80",
+      "helpers": "4 helpers",
+      "duration": "4 hours"
+    },
+    "bookNow": "Book now"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "q1": {
+      "question": "How quickly can I book helpers?",
+      "answer": "You can often get helpers as early as the next day. For urgent requests, please contact us by phone."
+    },
+    "q2": {
+      "question": "Are the students insured?",
+      "answer": "Yes, all our helpers are fully insured during the assignment."
+    },
+    "q3": {
+      "question": "What happens if a helper gets sick?",
+      "answer": "We will provide a replacement so your appointment can take place as planned."
+    },
+    "q4": {
+      "question": "Can I cancel my booking?",
+      "answer": "Yes, you can cancel free of charge up to 24 hours before the appointment."
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Submit"
+  },
+  "footer": {
+    "company": "About us",
+    "legal": "Legal",
+    "impressum": "Imprint",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "cancellation": "Right of Withdrawal",
+    "cookies": "Cookie Policy"
+  }
+}

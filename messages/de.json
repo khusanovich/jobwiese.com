@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "moving": "Umzug",
+    "crafts": "Handwerk",
+    "garden": "Gartenarbeiten",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Studenten. Schnell. Flexibel. Kompetent.",
+    "subtitle": "Ihre verlässliche Lösung für Umzüge, Handwerk und Gartenarbeit",
+    "cta1": "Umzugshelfer buchen",
+    "cta2": "Angebot anfordern"
+  },
+  "process": {
+    "title": "So einfach geht's",
+    "step1": {
+      "title": "Online-Formular ausfüllen",
+      "description": "Geben Sie Ihre Anforderungen ein und wählen Sie Datum und Uhrzeit"
+    },
+    "step2": {
+      "title": "Mitarbeiter-Kontaktdaten erhalten",
+      "description": "Wir senden Ihnen die Details Ihrer qualifizierten Helfer"
+    },
+    "step3": {
+      "title": "Helfer erscheinen pünktlich",
+      "description": "Unsere Studenten sind zum vereinbarten Zeitpunkt vor Ort"
+    }
+  },
+  "services": {
+    "title": "Warum uns wählen?",
+    "feature1": {
+      "title": "40.000+ Studenten",
+      "description": "Großes Netzwerk verfügbarer Helfer"
+    },
+    "feature2": {
+      "title": "24/7 Support",
+      "description": "Wir sind immer für Sie da"
+    },
+    "feature3": {
+      "title": "Bundesweit verfügbar",
+      "description": "In ganz Deutschland buchbar"
+    },
+    "feature4": {
+      "title": "5€ Online-Rabatt",
+      "description": "Sparen Sie bei Online-Buchung"
+    }
+  },
+  "statistics": {
+    "bookings": "Buchungen pro Jahr",
+    "satisfied": "Zufriedene Kunden",
+    "students": "Registrierte Studenten",
+    "referral": "Weiterempfehlungsrate"
+  },
+  "pricing": {
+    "title": "Unsere Preispakete",
+    "small": {
+      "title": "Kleiner Umzug",
+      "price": "93,90€",
+      "helpers": "2 Helfer",
+      "duration": "90 Minuten"
+    },
+    "medium": {
+      "title": "Mittlerer Umzug",
+      "price": "215,85€",
+      "helpers": "3 Helfer",
+      "duration": "3 Stunden"
+    },
+    "large": {
+      "title": "Großer Umzug",
+      "price": "343,80€",
+      "helpers": "4 Helfer",
+      "duration": "4 Stunden"
+    },
+    "bookNow": "Jetzt buchen"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "q1": {
+      "question": "Wie schnell kann ich Helfer buchen?",
+      "answer": "Sie können oft schon am nächsten Tag Helfer bekommen. Bei dringenden Anfragen kontaktieren Sie uns telefonisch."
+    },
+    "q2": {
+      "question": "Sind die Studenten versichert?",
+      "answer": "Ja, alle unsere Helfer sind während des Einsatzes vollständig versichert."
+    },
+    "q3": {
+      "question": "Was passiert bei Krankheit eines Helfers?",
+      "answer": "Wir sorgen für Ersatz, damit Ihr Termin wie geplant stattfinden kann."
+    },
+    "q4": {
+      "question": "Kann ich meine Buchung stornieren?",
+      "answer": "Ja, Sie können bis 24 Stunden vor dem Termin kostenfrei stornieren."
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "submit": "Absenden"
+  },
+  "footer": {
+    "company": "Über uns",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "terms": "AGB",
+    "privacy": "Datenschutz",
+    "cancellation": "Widerrufsrecht",
+    "cookies": "Cookie-Richtlinie"
+  }
+}
