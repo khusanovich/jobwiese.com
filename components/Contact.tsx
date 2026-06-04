@@ -22,7 +22,7 @@ export default function Contact() {
 
   const onSubmit = (data: ContactFormData) => {
     console.log('Form submitted:', data);
-    alert('Nachricht gesendet! (Demo)');
+    alert(t('sent'));
     reset();
   };
 
@@ -37,7 +37,7 @@ export default function Contact() {
           {/* Contact Info */}
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-gray-900">
-              Kontaktinformationen
+              {t('infoTitle')}
             </h3>
             <div className="space-y-6">
               <div className="flex items-start gap-4">
@@ -55,7 +55,7 @@ export default function Contact() {
                   <Phone className="w-6 h-6 text-pink-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Telefon</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">{t('phone')}</h4>
                   <p className="text-gray-600">+49 123 456 7890</p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600 text-gray-900"
                 />
                 {errors.name && (
-                  <span className="text-red-600 text-sm">Pflichtfeld</span>
+                  <span className="text-red-600 text-sm">{t('required')}</span>
                 )}
               </div>
 
@@ -89,7 +89,7 @@ export default function Contact() {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600 text-gray-900"
                 />
                 {errors.email && (
-                  <span className="text-red-600 text-sm">Pflichtfeld</span>
+                  <span className="text-red-600 text-sm">{t('required')}</span>
                 )}
               </div>
 
@@ -114,7 +114,7 @@ export default function Contact() {
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-600 text-gray-900"
                 />
                 {errors.message && (
-                  <span className="text-red-600 text-sm">Pflichtfeld</span>
+                  <span className="text-red-600 text-sm">{t('required')}</span>
                 )}
               </div>
 

@@ -97,11 +97,14 @@
   },
   "contact": {
     "title": "Kontaktieren Sie uns",
+    "infoTitle": "Kontaktinformationen",
     "name": "Name",
     "email": "E-Mail",
     "phone": "Telefon",
     "message": "Nachricht",
-    "submit": "Absenden"
+    "submit": "Absenden",
+    "required": "Pflichtfeld",
+    "sent": "Nachricht gesendet! (Demo)"
   },
   "footer": {
     "company": "Über uns",
