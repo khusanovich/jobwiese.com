@@ -14,14 +14,15 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const messages = await getMessages();
 
   if (!['de', 'en'].includes(locale)) {
     notFound();
   }
 
+  const messages = await getMessages({ locale });
+
   return (
-    <NextIntlClientProvider messages={messages}>
+    <NextIntlClientProvider locale={locale} messages={messages}>
       {children}
     </NextIntlClientProvider>
   );
