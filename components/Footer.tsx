@@ -1,9 +1,10 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const locale = useLocale();
 
   const currentYear = new Date().getFullYear();
 
@@ -24,7 +25,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">{t('legal')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-pink-500 transition-colors">
+                <a href={`/${locale}/impressum`} className="hover:text-pink-500 transition-colors">
                   {t('impressum')}
                 </a>
               </li>
