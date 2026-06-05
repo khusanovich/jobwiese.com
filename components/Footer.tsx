@@ -52,9 +52,16 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Kontakt</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: info@jobwiese.de</li>
-              <li>Tel: +49 123 456 7890</li>
-              <li>24/7 Support verfügbar</li>
+              <li>
+                <a href="mailto:info@Jobwiese.com" className="hover:text-pink-500 transition-colors">
+                  info@Jobwiese.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:+12392875338" className="hover:text-pink-500 transition-colors">
+                  +1 (239) 2875338
+                </a>
+              </li>
             </ul>
           </div>
         </div>
