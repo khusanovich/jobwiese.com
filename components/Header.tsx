@@ -23,13 +23,13 @@ export default function Header() {
   };
 
   const navItems = [
-    { key: 'home', href: '#home' },
-    { key: 'moving', href: '#services' },
-    { key: 'crafts', href: '#services' },
-    { key: 'garden', href: '#services' },
-    { key: 'pricing', href: '#pricing' },
-    { key: 'faq', href: '#faq' },
-    { key: 'contact', href: '#contact' },
+    { key: 'home', href: `/${locale}#home` },
+    { key: 'moving', href: `/${locale}#services` },
+    { key: 'crafts', href: `/${locale}#services` },
+    { key: 'garden', href: `/${locale}#services` },
+    { key: 'pricing', href: `/${locale}#pricing` },
+    { key: 'faq', href: `/${locale}#faq` },
+    { key: 'contact', href: `/${locale}#contact` },
   ];
 
   return (
@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <a href="#home" className="hover:text-pink-500 transition-colors">
+            <a href={`/${locale}`} className="hover:text-pink-500 transition-colors">
               JobWiese
             </a>
           </div>

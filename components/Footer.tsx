@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations, useLocale } from 'next-intl';
+import Link from 'next/link';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -25,9 +26,9 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">{t('legal')}</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href={`/${locale}/impressum`} className="hover:text-pink-500 transition-colors">
+                <Link href={`/${locale}/impressum`} className="hover:text-pink-500 transition-colors">
                   {t('impressum')}
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="#" className="hover:text-pink-500 transition-colors">
