@@ -74,7 +74,8 @@
       "helpers": "4 helpers",
       "duration": "4 hours"
     },
-    "bookNow": "Book now"
+    "bookNow": "Book now",
+    "insured": "Insured"
   },
   "faq": {
     "title": "Frequently asked questions",
@@ -103,11 +104,16 @@
     "phone": "Phone",
     "message": "Message",
     "submit": "Submit",
+    "sending": "Sending...",
     "required": "Required field",
-    "sent": "Message sent! (Demo)"
+    "sent": "Message sent successfully!",
+    "sentDesc": "We will get back to you as soon as possible.",
+    "sendAnother": "Send another message",
+    "errorMsg": "Something went wrong. Please try again later or contact us directly."
   },
   "footer": {
     "company": "About us",
+    "tagline": "Your reliable solution for moving, crafts and garden work.",
     "legal": "Legal",
     "impressum": "Imprint",
     "terms": "Terms & Conditions",

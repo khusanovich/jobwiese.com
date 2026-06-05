@@ -74,7 +74,8 @@
       "helpers": "4 Helfer",
       "duration": "4 Stunden"
     },
-    "bookNow": "Jetzt buchen"
+    "bookNow": "Jetzt buchen",
+    "insured": "Versichert"
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
@@ -103,11 +104,16 @@
     "phone": "Telefon",
     "message": "Nachricht",
     "submit": "Absenden",
+    "sending": "Wird gesendet...",
     "required": "Pflichtfeld",
-    "sent": "Nachricht gesendet! (Demo)"
+    "sent": "Nachricht erfolgreich gesendet!",
+    "sentDesc": "Wir melden uns so bald wie möglich bei Ihnen.",
+    "sendAnother": "Weitere Nachricht senden",
+    "errorMsg": "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut oder schreiben Sie uns direkt."
   },
   "footer": {
     "company": "Über uns",
+    "tagline": "Ihre verlässliche Lösung für Umzüge, Handwerk und Gartenarbeit.",
     "legal": "Rechtliches",
     "impressum": "Impressum",
     "terms": "AGB",

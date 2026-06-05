@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">JobWiese</h3>
             <p className="text-gray-400">
-              Ihre verlässliche Lösung für Umzüge, Handwerk und Gartenarbeit.
+              {t('tagline')}
             </p>
           </div>
 
